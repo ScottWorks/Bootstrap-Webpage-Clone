@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  position: relative;
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.top-bar-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13pt;
+}
+
+.logo a {
+  font-weight: 500;
+  font-size: 20pt;
+}
+
+.nav-container {
+  margin: 30px;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: auto;
+}
+
+header {
+  background: url('./images/intro-bg.jpg') no-repeat center;
+  background-size: cover;
+  height: auto;
+}
+
+.header-text-container {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 300px;
+}
+
+.header-text-container h1 {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  font-size: 75pt;
+}
+.header-text-container p {
+  font-size: 15pt;
+}
+
+section {
+  height: auto;
+  text-align: center;
+}
+
+.about-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 75px;
+}
+
+.download-container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background: url('./images/downloads-bg.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.contact-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 75px;
+}
+
+footer {
+  background-color: rgba(146, 147, 148, 0.7);
+  color: white;
+  height: auto;
+  text-align: center;
+}
+
+.footer-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
